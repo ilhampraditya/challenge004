@@ -49,7 +49,7 @@ function HomeCarousel() {
             <p>{movie.overview}</p>
             <Link to={`/trailer/${movie.id}`}>
               <Button className="button" variant="danger">
-                Tonton Trailer
+                Watch Trailer
               </Button>
             </Link>
           </Carousel.Caption>

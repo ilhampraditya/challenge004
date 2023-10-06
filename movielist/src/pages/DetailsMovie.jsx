@@ -73,7 +73,7 @@ function DetailsMovie() {
               variant="danger"
               onClick={handleWatchTrailer}
             >
-              Tonton Trailer
+              Watch Trailer
             </Button>
           </Carousel.Caption>
         </Carousel.Item>

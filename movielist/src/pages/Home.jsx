@@ -6,6 +6,7 @@ import HomeCarousel from "../components/Carousel";
 import NavbarComponents from "../components/NavbarComponents";
 import { Footer } from "../components/footer";
 import "../style/style.css";
+import { FaAnglesRight } from "react-icons/fa6";
 
 const Home = () => {
   const [popularMovies, setPopularMovies] = useState([]);
@@ -66,9 +67,13 @@ const Home = () => {
       <NavbarComponents />
       <HomeCarousel />
       <div className="mt-4 mb-5">
-        <h3>
-          <b>POPULAR MOVIE</b>
-        </h3>
+        <div className="d-flex justify-content-between mb-4">
+          <h2>Popular Movies</h2>
+          <row className="btn btn-light rounded-pill color-primary d-flex align-items-center gap-2">
+            <span className="fw-semibold">See All Movie </span>
+            <FaAnglesRight className="icon color-primary" />
+          </row>
+        </div>
       </div>
       <Container className="mt-3">
         <Row className="g-5">
