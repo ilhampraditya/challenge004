@@ -3,7 +3,7 @@ import { useSearchParams, useLocation, Link } from "react-router-dom";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import HomeCarousel from "../components/Carousel";
 import NavbarComponents from "../components/NavbarComponents";
-import { Footer } from "../components/footer";
+import { Footer } from "../components/Footer";
 import axios from "axios"; 
 
 const SearchMovies = () => {

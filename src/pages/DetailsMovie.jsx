@@ -4,7 +4,7 @@ import axios from "axios";
 import { Button, Carousel } from "react-bootstrap";
 import NavbarComponents from "../components/NavbarComponents";
 import { StarFill } from "react-bootstrap-icons";
-import { Footer } from "../components/footer";
+import { Footer } from "../components/Footer";
 import "../style/style.css"; 
 
 function DetailsMovie() {
