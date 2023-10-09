@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import MovieItem from "../components/MovieItem";
 import HomeCarousel from "../components/Carousel";
 import NavbarComponents from "../components/NavbarComponents";
-import { Footer } from "../components/footer";
+import { Footer } from "../components/Footer";
 import "../style/style.css";
 import { FaAnglesRight } from "react-icons/fa6";
 
