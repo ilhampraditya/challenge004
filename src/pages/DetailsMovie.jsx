@@ -17,7 +17,7 @@ function DetailsMovie() {
         const response = await axios.get(
           `${import.meta.env.VITE_API_URL}/3/movie/${
             params.movieId
-          }?language=id-ID`,
+          }?language=en-US`,
           {
             headers: {
               Authorization: `Bearer ${import.meta.env.VITE_API_AUTH_TOKEN}`,
