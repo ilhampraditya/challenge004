@@ -1,8 +1,0 @@
-{
-  "routes": [
-    { "src": "/details/([^/]+)", "dest": "/details/:movieId" },
-    { "src": "/trailer/([^/]+)", "dest": "/trailer/:movieId" },
-    { "src": "/search", "dest": "/search" },
-    { "src": "/(.*)", "dest": "/" }
-  ]
-}
